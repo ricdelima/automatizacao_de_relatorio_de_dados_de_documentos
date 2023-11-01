@@ -18,7 +18,7 @@ st.caption("Turma Exclusiva para Mulheres - Outubro/2023 :cherry_blossom:")
 st.subheader( 'Exemplo de HTML' , divider='rainbow')
 st.image('./analise_gastos_saude/streamlit/data/exemple.png', caption = "Exemplo de um documento SEI em HTML")
 
-rema =  pd.read_excel('./data/rema.xlsx', engine='openpyxl')
+rema =  pd.read_excel('./analise_gastos_saude/streamlit/data/rema.xlsx', engine='openpyxl')
 st.subheader( 'Exemplo do DataFrame' , divider='rainbow')
 
 st.dataframe(rema.head())
