@@ -16,12 +16,12 @@ show_pages(
         # Since this is a Section, all the pages underneath it will be indented
         # The section itself will look like a normal page, but it won't be clickable
         #Section(name="Automação SEI", icon="📖"),
-        #Page("/pages/1_2_SEI_Exemplo.py", icon="📖"),
+        #Page("pages/1_2_SEI_Exemplo.py", icon="📖"),
         # The pages appear in the order you pass them
-        Page("pages/1_Projeto_SEI.py", "Projeto SEI", "📖"),
-        Page("pages/2_SEI_Exemplo.py", "HTML para DataFrame", "📖"),
-        Page("pages/3_SEI_Estados.py", "Mapa de Requisições", "📖"),
-        Page("pages/4_SEI_Analise.py", "Análises da Requisições", "📖"),
+        Page("/pages/1_Projeto_SEI.py", "Projeto SEI", "📖"),
+        Page("../pages/2_SEI_Exemplo.py", "HTML para DataFrame", "📖"),
+        Page("../../pages/3_SEI_Estados.py", "Mapa de Requisições", "📖"),
+        Page("../../../pages/4_SEI_Analise.py", "Análises da Requisições", "📖"),
         #Section(name="Gastos Saúde", icon=":hospital:"),
         # Will use the default icon and name based on the filename if you don't
         # pass them
