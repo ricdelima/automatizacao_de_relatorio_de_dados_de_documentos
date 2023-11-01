@@ -16,7 +16,7 @@ st.caption("Projeto Final do Bootcamp de Análise de Dados - ENAP :game_die::gam
 st.caption("Turma Exclusiva para Mulheres - Outubro/2023 :cherry_blossom:")
 
 st.subheader( 'Exemplo de HTML' , divider='rainbow')
-st.image('./data/exemple.png', caption = "Exemplo de um documento SEI em HTML")
+st.image('./analise_gastos_saude/streamlit/data/exemple.png', caption = "Exemplo de um documento SEI em HTML")
 
 rema =  pd.read_excel('./data/rema.xlsx', engine='openpyxl')
 st.subheader( 'Exemplo do DataFrame' , divider='rainbow')
