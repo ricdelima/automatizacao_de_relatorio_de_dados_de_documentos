@@ -25,13 +25,13 @@ show_pages(
         #Section(name="Gastos Saúde", icon=":hospital:"),
         # Will use the default icon and name based on the filename if you don't
         # pass them
-        Page("/pages/1_Projeto_Saude.py", icon=":hospital:"),
-        Page("/pages/2_Estados.py", icon=":hospital:"),
-        Page("/pages/3_Municipios.py", icon=":hospital:"),
-        Page("/pages/4_Correlacao.py", icon=":hospital:"),
-        Page("/pages/6_Regressao.py", icon=":hospital:"),
+        Page("pages/1_Projeto_Saude.py", icon=":hospital:"),
+        Page("pages/2_Estados.py", icon=":hospital:"),
+        Page("pages/3_Municipios.py", icon=":hospital:"),
+        Page("pages/4_Correlacao.py", icon=":hospital:"),
+        Page("pages/6_Regressao.py", icon=":hospital:"),
         # You can also pass in_section=False to a page to make it un-indented
-        Page("/pages/7_Equipe.py", "Equipe", "🧰", in_section=False)
+        Page("pages/7_Equipe.py", "Equipe", "🧰", in_section=False)
         ]
     )
     
